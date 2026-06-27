@@ -14,7 +14,7 @@ Details and specific analysis is found at : (https://www.sciencedirect.com/scien
 ⭐ [Please Star this repo](https://github.com/djene-mengistu/ProMSC)
 🔥 If you find it useful, please cite ourwork as follows:
 ```
-@ARTICLE{STAC,
+@ARTICLE{djene-ProMSC,
   author={Dejene M. Sime, Nan Ouyang, Kai Sheng, Adnan A. Qaseem, Yiting Liu, Xiaojiang Renb},
   journal={Expert Systems with Applications}, 
   title={Cross-Sample Prototype Matching and Multiscale Spatial Correlation Consistency for Defect Segmentation Under Limited Annotations}, 
@@ -39,14 +39,18 @@ Follow the steps below to reproduce the results.
 
 # 📌 Overview
 
-Semi-supervised learning significantly reduces annotation costs in industrial defect localization by relying on image-level labels instead of pixel-wise annotations. However, existing approaches often suffer from:
+Defect segmentation is essential for industrial quality control, yet it faces major challenges due to the high cost and time required for pixel-level annotations. Industrial images often suffer from low contrast, pixel-level class ambiguity, extreme defect variability (in size, shape, and appearance), class imbalance, and subtle textures. These issues cause noisy pseudo-labels, confirmation bias, and error propagation in traditional semi-supervised learning (SSL) methods, which struggle with limited labeled data while relying on abundant unlabeled samples.
 
-- overlapping activation regions
-- weak localization
-- noisy attention maps
-- low-contrast defect boundaries
-- high intra-class variation
-- strong inter-class similarity
+## Proposed Solution: ProMSC Framework
+This paper introduces ProMSC, a novel semi-supervised framework designed to address these limitations by tightly coupling pseudo-labeling with enhanced consistency regularization:
+
+- ⚡Cross-Sample Prototype Matching: Builds class-wise prototypes from labeled samples (using ground-truth masks) and unlabeled samples (using pseudo-labels) at the feature-map level. This anchors unlabeled representations to reliable semantic centers from labeled data, promotes compact intra-class clustering, and pushes decision boundaries toward low-density regions to improve pseudo-label quality and reduce confirmation bias.
+- ⚡Multiscale Spatial Correlation Consistency: Computes spatial correlation matrices at multiple encoder scales to capture higher-order structural relationships (beyond local pixels). These are enforced to remain consistent between weakly and strongly augmented views, preserving geometric and structural properties of defects across scales.
+- ⚡Positional Alignment & Pseudo-Label Refinement: Introduces positional feature consistency for local stability and uses the learned correlation matrix to reweight decoder logits, enhancing the confidence and spatial coherence of pseudo-labels.
+
+## Key Outcomes
+- 📈 ProMSC achieves state-of-the-art performance on five diverse benchmark datasets (NEU-Seg, DAGM, MTD, Crack500, TUT), demonstrating strong robustness even with very limited annotations. The approach effectively mitigates low-contrast and variability issues common in real-world industrial settings.
+
 
 ## 📬 Contact
 For questions, collaborations, or further discussion regarding this work, please feel free to reach out:
