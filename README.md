@@ -19,7 +19,7 @@ Defect segmentation is critical a task in industrial quality control and manufac
 ## ✨ Full paper source:
 Details and specific analysis is found at : (https://www.sciencedirect.com/science/article/pii/S095741742602213X)
 
-⭐ [Please Star this repo](https://github.com/djene-mengistu/ProMSC)
+⭐ [Please Star This Repo](https://github.com/djene-mengistu/ProMSC)
 🔥 If you find it useful, please cite ourwork as follows:
 ```
 @ARTICLE{djene-ProMSC,
