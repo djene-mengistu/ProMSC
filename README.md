@@ -1,8 +1,16 @@
 # Cross-Sample Prototype Matching and Multiscale Spatial Correlation Consistency for Defect Segmentation Under Limited Annotations
 
-[![Paper](https://img.shields.io/badge/Paper-Published-blue)]()
-[![Code](https://img.shields.io/badge/Code-ProMSC-green)]()
-[![License](https://img.shields.io/badge/License-MIT-orange)]()
+<p align="center">
+  <a href="https://www.sciencedirect.com/science/article/pii/S095741742602213X">
+    <img src="https://img.shields.io/badge/Paper-Published-blue?style=for-the-badge&logo=ieee" alt="Paper">
+  </a>
+  <a href="https://github.com/djene-mengistu/ProMSC">
+    <img src="https://img.shields.io/badge/Code-ProMSC-green?style=for-the-badge&logo=github" alt="Code">
+  </a>
+  <a href="https://github.com/djene-mengistu/ProMSC/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License">
+  </a>
+</p>
 
 ## 📄 Abstract
 
