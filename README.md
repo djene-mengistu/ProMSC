@@ -52,12 +52,12 @@ This paper introduces ProMSC, a novel semi-supervised framework designed to addr
 
 <div align="center">
   <img src="./figs/main-arch.jpg" width="80%" alt="ProMSC Framework">
-  <p><strong>Figure X:</strong> ProMSC overall architecture</p>
+  <p><strong>Figure:</strong> ProMSC overall architecture</p>
 </div>
 
 <div align="center">
   <img src="./figs/details.jpg" width="80%" alt="ProMSC Framework">
-  <p><strong>Figure X:</strong> ProMSC overall architecture</p>
+  <p><strong>Figure:</strong> ProMSC details</p>
 </div>
 
 ## 🏅Key Outcomes
@@ -65,12 +65,12 @@ This paper introduces ProMSC, a novel semi-supervised framework designed to addr
 
 <div align="center">
   <img src="./figs/tables.jpg" width="80%" alt="ProMSC Framework">
-  <p><strong>Figure X:</strong> ProMSC overall architecture</p>
+  <p><strong>Figure:</strong> Results tables</p>
 </div>
 
 <div align="center">
   <img src="./figs/visualization.jpg" width="80%" alt="ProMSC Framework">
-  <p><strong>Figure X:</strong> ProMSC overall architecture</p>
+  <p><strong>Figure:</strong> Visualization of segmentation results</p>
 </div>
 
 ## 📬 Contact
