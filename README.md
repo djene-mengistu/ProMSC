@@ -50,15 +50,28 @@ This paper introduces ProMSC, a novel semi-supervised framework designed to addr
 
 ## 🏗️ ProMSC Framework
 
-![ProMSC Framework](./figs/main-arch.jpg)
+<div align="center">
+  <img src="./figs/main-arch.jpg" width="80%" alt="ProMSC Framework">
+  <p><strong>Figure X:</strong> ProMSC overall architecture</p>
+</div>
 
-![ProMSC Details](./figs/details.jpg)
+<div align="center">
+  <img src="./figs/details.jpg" width="80%" alt="ProMSC Framework">
+  <p><strong>Figure X:</strong> ProMSC overall architecture</p>
+</div>
 
 ## 🏅Key Outcomes
 - 🏆ProMSC achieves state-of-the-art performance on five diverse benchmark datasets (NEU-Seg, DAGM, MTD, Crack500, TUT), demonstrating strong robustness even with very limited annotations. The approach effectively mitigates low-contrast and variability issues common in real-world industrial settings.
-![Resutls table](./figs/tables.jpg)
 
-![Visualization](./figs/visualization.jpg)
+<div align="center">
+  <img src="./figs/tables.jpg" width="80%" alt="ProMSC Framework">
+  <p><strong>Figure X:</strong> ProMSC overall architecture</p>
+</div>
+
+<div align="center">
+  <img src="./figs/visualization.jpg" width="80%" alt="ProMSC Framework">
+  <p><strong>Figure X:</strong> ProMSC overall architecture</p>
+</div>
 
 ## 📬 Contact
 For questions, collaborations, or further discussion regarding this work, please feel free to reach out:
