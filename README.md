@@ -17,10 +17,11 @@
 Defect segmentation is critical a task in industrial quality control and manufacturing systems, yet acquiring pixel-level annotations for training deep learning models is costly and time-consuming. Existing semi-supervised methods often struggle with challenges in industrial images, including low contrast, pixel-level class ambiguity, and extreme defect variability, which lead to prediction noise and biases when labeled samples are limited. To address these issues, we propose **ProMSC🔍** (Cross-Sample Prototype Matching with Multiscale Spatial Correlation Consistency), a novel semi-supervised framework that leverages a small set of annotated samples to guide learning from unlabeled data. ProMSC integrates cross-sample prototype matching between labeled and unlabeled samples at the feature map level to improve the representation of unlabeled samples, multiscale spatial correlation and positional alignment to enforce structural consistency between weakly and strongly augmented views, and pseudo-label refinement via correlation matrix to enhance prediction confidence. This combination effectively mitigates the challenges of low contrast, class ambiguity, and extreme defect variability, enabling robust learning from limited labeled data along with large pool of unlabeled data. Extensive experiments on five benchmark defect segmentation datasets demonstrate that ProMSC outperforms several state-of-the-art semi-supervised segmentation approaches.
 
 ## ✨ Full paper source:
-Details and specific analysis is found at : (https://www.sciencedirect.com/science/article/pii/S095741742602213X)
+⭐ Details and specific analysis is found at : (https://www.sciencedirect.com/science/article/pii/S095741742602213X)
 
-⭐ [Please Star This Repo](https://github.com/djene-mengistu/ProMSC)
-🔥 If you find it useful, please cite ourwork as follows:
+⭐[ **If you find this work useful, please star this repository!**](https://github.com/djene-mengistu/ProMSC)⭐
+
+🔥 Please cite ourwork as follows:
 ```
 @ARTICLE{djene-ProMSC,
   author={Dejene M. Sime, Nan Ouyang, Kai Sheng, Adnan A. Qaseem, Yiting Liu, Xiaojiang Renb},
