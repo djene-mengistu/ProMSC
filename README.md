@@ -48,6 +48,10 @@ This paper introduces ProMSC, a novel semi-supervised framework designed to addr
 - ⚡Multiscale Spatial Correlation Consistency: Computes spatial correlation matrices at multiple encoder scales to capture higher-order structural relationships (beyond local pixels). These are enforced to remain consistent between weakly and strongly augmented views, preserving geometric and structural properties of defects across scales.
 - ⚡Positional Alignment & Pseudo-Label Refinement: Introduces positional feature consistency for local stability and uses the learned correlation matrix to reweight decoder logits, enhancing the confidence and spatial coherence of pseudo-labels.
 
+## 🏗️ ProMSC Framework
+
+![ProMSC Framework](./figs/main-arch.jpg)
+
 ## Key Outcomes
 - 📈 ProMSC achieves state-of-the-art performance on five diverse benchmark datasets (NEU-Seg, DAGM, MTD, Crack500, TUT), demonstrating strong robustness even with very limited annotations. The approach effectively mitigates low-contrast and variability issues common in real-world industrial settings.
 
