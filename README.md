@@ -90,7 +90,7 @@ This paper introduces ProMSC, a novel semi-supervised framework designed to addr
 </div>
 
 ## 📬 Contact
-For questions, collaborations, or further discussion regarding this work, please feel free to reach out. ❤️💬🐛We welcome feedback, suggestions, and collaboration opportunities in industrial AI and weakly supervised learning research⭐⭐⭐. 
+For questions, collaborations, or further discussion regarding this work, please feel free to reach out. ❤️💬🐛We welcome feedback, suggestions, and collaboration opportunities⭐⭐⭐. 
 
 - 📧 Email: djene.mengistu@gmail.com  
 - 🌐 GitHub: https://github.com/djene-mengistu 
