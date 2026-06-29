@@ -26,7 +26,7 @@ ProMSC integrates cross-sample prototype matching between labeled and unlabeled 
 🔥 Please cite ourwork as follows:
 ```
 @ARTICLE{djene-ProMSC,
-  author={Dejene M. Sime, Nan Ouyang, Kai Sheng, Adnan A. Qaseem, Yiting Liu, Xiaojiang Renb},
+  author={Dejene M. Sime, Nan Ouyang, Kai Sheng, Adnan A. Qaseem, Yiting Liu, Xiaojiang Ren},
   journal={Expert Systems with Applications}, 
   title={Cross-Sample Prototype Matching and Multiscale Spatial Correlation Consistency for Defect Segmentation Under Limited Annotations}, 
   year={2026},
