@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# PyTorch weights
+*.pth
+*.pt
+*.ckpt
+
+# Experiment outputs
+EXP/
+runs/
+logs/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
