@@ -75,6 +75,11 @@ This paper introduces ProMSC, a novel semi-supervised framework designed to addr
 - 🏆ProMSC achieves state-of-the-art performance on **five diverse benchmark datasets (NEU-Seg, DAGM, MTD, Crack500, TUT)**, demonstrating strong robustness even with very limited annotations. The approach effectively mitigates low-contrast and variability issues common in real-world industrial settings.
 
 <div align="center">
+  <img src="./figs/feature_viz.jpg" width="80%" alt="ProMSC Framework">
+  <p><strong>Figure:</strong> Visualization of Feature Maps</p>
+</div>
+
+<div align="center">
   <img src="./figs/tables.jpg" width="80%" alt="ProMSC Framework">
   <p><strong>Figure:</strong> Results tables</p>
 </div>
