@@ -37,13 +37,13 @@ ProMSC integrates cross-sample prototype matching between labeled and unlabeled 
 This repository provides scripts for training, evaluation, and segmentation using the ProMSC framework.  
 Follow the steps below to reproduce the results.
 
-1️⃣ Train ProMSC: run the 'train.sh'
+1️⃣ Train ProMSC: run the 'train_promsc.sh' in the training_scripts directory
 
-2️⃣ Evaluate ProMSC: run the 'test.py'
+2️⃣ Evaluate ProMSC: run the 'testing.py' files in the testing_scripts directory
 
-3️⃣ Segmentation Pipeline: create the pseudo labels from the seed CAM and run the codes in the 'Segmentation directory'
+3️⃣ Dataloader and testing might be slightly different for different datasets, check accordingly
 
-4️⃣ Apply to Different Datasets: Follow same procedure for all datasets
+4️⃣ Scripts for TSNE plotting and complexity analysis are also provided
 
 ---
 
