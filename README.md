@@ -25,13 +25,17 @@ ProMSC integrates cross-sample prototype matching between labeled and unlabeled 
 
 🔥 Please cite ourwork as follows:
 ```
-@ARTICLE{djene-ProMSC,
-  author={Dejene M. Sime, Nan Ouyang, Kai Sheng, Adnan A. Qaseem, Yiting Liu, Xiaojiang Ren},
-  journal={Expert Systems with Applications}, 
-  title={Cross-Sample Prototype Matching and Multiscale Spatial Correlation Consistency for Defect Segmentation Under Limited Annotations}, 
-  year={2026},
-  keywords={Defect segmentation; Semi-supervised learning; Multi-scale spatial correlation; Cross-sample prototypes; Pseudo-labeling; Consistency regularization},
-  doi={https://doi.org/10.1016/j.eswa.2026.133304}}
+@article{SIME2026133304,
+title = {Cross-sample prototype matching and multiscale spatial correlation consistency for defect segmentation under limited annotations},
+journal = {Expert Systems with Applications},
+volume = {331},
+pages = {133304},
+year = {2026},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2026.133304},
+url = {https://www.sciencedirect.com/science/article/pii/S095741742602213X},
+author = {Dejene M. Sime and Nan Ouyang and Kai Sheng and Adnan A. Qaseem and Yiting Liu and Xiaojiang Ren},
+keywords = {Defect segmentation, Semi-supervised learning, Multi-scale spatial correlation, Cross-sample prototypes, Pseudo-labeling, Consistency regularization}}
 ```
 ## 🚀 Usage of this repository:
 This repository provides scripts for training, evaluation, and segmentation using the ProMSC framework.  
